@@ -1,0 +1,21 @@
+//circle area calculation
+
+class Circle {
+    private double radius;
+
+    public void setRadius(double r) {
+        if (r > 0) radius = r;
+    }
+
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
+public class Test5 {
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        c.setRadius(5);
+        System.out.println("Area: " + c.getArea());
+    }
+}
