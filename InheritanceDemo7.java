@@ -1,3 +1,5 @@
+// Interface + Inheritance – Dynamic Payment Method
+
 import java.util.Scanner;
 
 interface Payment {
