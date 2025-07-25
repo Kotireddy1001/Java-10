@@ -1,3 +1,5 @@
+//Single Inheritance – Dynamic Animal Sounds
+
 class Animal {
     void sound() {
         System.out.println("Animal makes sound");
