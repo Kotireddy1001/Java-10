@@ -1,3 +1,5 @@
+//Inheritance with Constructor Chaining
+
 class Vehicle {
     Vehicle() {
         System.out.println("Vehicle created");
